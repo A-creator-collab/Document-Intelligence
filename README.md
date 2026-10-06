@@ -91,6 +91,12 @@ Roadmap
     □
 
     Evaluation notebook with sample documents
+## System Dependencies
+
+OpenCV requires system graphics libraries on Linux:
+
+```bash
+sudo apt-get install -y libgl1 libglib2.0-0
 
 Author
 
