@@ -62,7 +62,36 @@ Note: You also need Tesseract installed on your system:
     macOS: brew install tesseract
 
     Windows: installer here
+## Running Tests
 
+To run the test suite, use the following command:
+
+```bash
+pytest tests/ -v
+
+#### Step 5: Update the README's Status and Roadmap
+
+You've made significant progress, so the README should reflect that.
+
+- **Action:** In `README.md`, update the **Status** section to show that the preprocessing pipeline is complete. Also, update the **Roadmap** by checking off the first item.
+- **Commit Message:** `docs: update status and roadmap`
+
+**Change the Status section from:**
+> 🚧 Project scaffolding. Preprocessing and extraction modules are stubbed out and will be implemented in upcoming commits.
+
+**To:**
+> 🚧 Preprocessing pipeline implemented. Text extraction is next.
+
+**Change the Roadmap section to:**
+```markdown
+## Roadmap
+
+- [x] Implement preprocessing chain
+- [ ] Wire up Tesseract extraction
+- [ ] Text cleaning and normalization
+- [ ] Handle multi-page PDFs
+- [ ] Structured output (key-value extraction)
+- [ ] Evaluation notebook with sample documents
 Usage
 
 Not implemented yet. The pipeline will be runnable as:
